@@ -7,10 +7,7 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import SunnyIcon from '@mui/icons-material/Sunny';
 import ThunderStormIcon from '@mui/icons-material/Thunderstorm';
 import CloudIcon from '@mui/icons-material/Cloud';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+
 
 
 export default function InfoBox({weatherData}){
