@@ -71,7 +71,7 @@ export default function SearchBox({setData}){
            </form><br></br>
            <Stack sx={{ alignItems: 'center' }}>
            {error == true ? <Alert variant="filled" severity="info"    onClose={() => {setError(false)}}>
-        This Place does not exist in API or Please check your internet connection
+        This Place does not exist in API 
       </Alert> : EmptySubmit==true? <Alert variant="filled" severity="info"  onClose={() => {setEmptySubmit(false)}}>
         Please enter a Palce to find Weather
       </Alert> :null}
