@@ -16,7 +16,7 @@ export default function SearchBox({setData}){
     let [error, setError]= useState(false);
     let [EmptySubmit, setEmptySubmit]= useState(false);
 
-    let geocoding_API_URL='http://api.openweathermap.org/geo/1.0/direct';
+    let geocoding_API_URL='https://api.openweathermap.org/geo/1.0/direct';
     let weather_API_URL='https://api.openweathermap.org/data/2.5/weather';
     
 
